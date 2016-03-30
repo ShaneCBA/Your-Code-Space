@@ -1,0 +1,73 @@
+/*Fonts, obviously*/
+
+@font-face {/*xxx*/
+  font-family: Ailerons;
+  src: url("fonts\\Ailerons\\Ailerons-Typeface.otf");
+}
+@font-face {/*xx*/
+  font-family: GidoleFont;
+  src: url("fonts\\GidoleFont\\Gidolinya-Regular.otf");
+}
+@font-face {/*xxx*/
+  font-family: Hero;
+  src: url("fonts\\hero\\Hero.otf");
+}
+@font-face {/*xx*/
+  font-family: Ikaros_Sans;
+  src: url("fonts\\Ikaros Sans\\Ikaros-Regular.otf");
+}
+@font-face {/*xxx*/
+  font-family: Lovelo_Black;
+  src: url("fonts\\lovelo\\Lovelo Black.otf");
+}
+@font-face {/*xxxx*/
+  font-family: MoonTypeface;
+  src: url("fonts\\MoonTypeface\\Moon Light.otf");
+}
+@font-face {/*xx*/
+  font-family: nurjan-free;
+  src: url("fonts\\nurjan-free\\Nurjan Free.otf");
+}
+@font-face {/*xxxx*/
+  font-family: Order;
+  src: url("fonts\\Order\\Order Light.ttf");
+}
+@font-face {/*xx*/
+  font-family: Qontra_Font;
+  src: url("fonts\\Qontra Font\\Qontra.otf");
+}
+@font-face {/*xx*/
+  font-family: Slot_Font;
+  src: url("fonts\\Slot_Font\\Slot-Regular.otf");
+}
+@font-face {/*xxxx*/
+  font-family: Stellar;
+  src: url("fonts\\Stellar-FreeForPersonal\\Stellar-light.otf");
+}
+@font-face {/*xxx*/
+  font-family: MANIFESTO;
+  src: url("fonts\\MANIFESTO.ttf");
+}
+    /*https://color.adobe.com/create/color-wheel/?base=2&rule=Monochromatic&selected=2&name=Copy%20of%20My%20Color%20Theme&mode=rgb&rgbvalues=0.23955111595149042,0.4074021540361766,0.52,0.2434160713547633,0.28925220283847075,0.32,0.10134854905639978,0.17236244978453624,0.22,0.3955511159514904,0.47003482961251497,0.52,0.377753682846581,0.6424418582878169,0.82&swatchOrder=0,1,2,3,4*/
+/*Other Stuff*/
+body, html
+{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial;
+  background-color: #414141;
+}
+div.header
+{
+  background-color: #151515;
+  color: #FFF;
+  border-bottom: 1px solid #909090;
+}
+div.header > .logo
+{
+  font-size:18px;
+  padding:7px;
+  display: inline-block;
+  font-family: MoonTypeface;
+}
